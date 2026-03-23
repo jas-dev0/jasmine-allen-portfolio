@@ -7,45 +7,45 @@ export const personal = {
   initials: 'JA',
   title: 'Software Engineer & Technical Consultant',
   location: 'Southfield, MI',
-  availability: 'Available for hire',
+  availability: 'Available for full time roles',
   summary:
-    'Software engineer and technical consultant bridging backend development and enterprise support. Based in Southfield, MI.',
+    'Full-stack software engineer with a strong .NET and C# foundation, sharpened through production work at Ford Motor Company. Experienced across the development lifecycle — from requirements gathering and QA to CI/CD deployment and documentation. Brings a collaborative, cross-functional approach with additional depth in Python, React, and cloud platforms (Azure, AWS, GCP).',
   email: 'jasmineallen.dev@gmail.com',
-  linkedin: 'linkedin.com/in/yourprofile',   // ← update this
-  github: 'github.com/yourusername',          // ← update this
-  consulting: 'blupix.me',
-  resumeUrl: '/Jasmine_Allen_Resume.pdf',     // ← drop PDF in /public
+  linkedin: 'https://www.linkedin.com/in/jasmine-allen/',   // ← update this
+  github: 'https://github.com/jas-dev0',          // ← update this
+  consulting: 'https://blupix.me',
+  resumeUrl: '/Jas_Allen_Resume.pdf',     // ← drop PDF in root folder
 }
 
 export const stats = [
   { number: '5+',  label: 'Years experience' },
-  { number: '98%', label: 'Resolution rate'  },
-  { number: '50+', label: 'Users supported'  },
-  { number: '3',   label: 'Certifications'   },
+  { number: '3',   label: 'Cloud platforms'  },
+  { number: '10+', label: 'Languages & frameworks'  },
+  { number: '3',   label: 'Industries worked in'   },
 ]
 
 export const projects = [
   {
     tag: 'Consulting / BluPix',
-    title: 'Client API Integrations',
+    title: 'Website Development & Branding',
     description:
-      'Diagnosed and resolved REST API authentication, data sync, and XML/JSON connectivity issues for multiple consulting clients.',
-    stack: ['REST APIs', 'XML', 'Python'],
-    link: '',
+      'End-to-end web development and brand identity for small business clients — custom sites, visual assets, and technical documentation delivered through BluPix.',
+  stack: ['React', 'Next.js', 'Typescript', 'Tailwind CSS', 'Adobe CC', 'Procreate'],
+    link: 'https://blupix.me/#work',
   },
   {
     tag: 'AI / Automation',
     title: 'Customer Support Chatbot',
     description:
-      'Python-based AI chatbot deployed for client support workflows, reducing response times and increasing engagement.',
+      'Python-based AI chatbot deployed for client support, reducing response times and increasing engagement.',
     stack: ['Python', 'REST API', 'JSON'],
-    link: '', // ← optional GitHub or live link
+    link: 'https://github.com/jas-dev0/python-ai-chatbot', // ← optional GitHub or live link
   },
   {
     tag: 'Enterprise / .NET',
     title: 'Ford Call Center Platform',
     description:
-      'Production C# web application supporting 50+ agents. Reduced support tickets by 30% through regression testing and CI/CD automation.',
+      'Production C# web application supporting 50+ agents.',
     stack: ['C#', 'ASP.NET', 'Azure', 'MS SQL'],
     link: '',
   },
@@ -97,7 +97,7 @@ export const experience = [
     company: 'BluPix',
     companyUrl: 'https://blupix.me',
     description:
-      'API integrations, AI automation, branding, and technical documentation for independent clients.',
+      'Branding, REST API integrations, AI chatbot development, and technical documentation for independent clients.',
   },
   {
     dates: '2019 — 2022',
@@ -105,15 +105,23 @@ export const experience = [
     company: 'Ford Motor Company (via Advantage Resourcing)',
     companyUrl: '',
     description:
-      'C#/.NET production support, Azure CI/CD automation, Agile team collaboration, 30% ticket reduction.',
+      'C#/.NET production support, Azure CI/CD automation, Agile team collaboration.',
   },
   {
-    dates: '2016 — 2019',
-    role: 'Web Developer & IT Intern',
+    dates: '2018 — 2019',
+    role: 'Web Developer Intern',
     company: 'Blue Cross Blue Shield of Michigan',
     companyUrl: '',
     description:
-      'SharePoint development, Power BI dashboards, MDM administration, 98% first-contact resolution rate.',
+      'SharePoint development, requirements analysis, Power BI dashboards, and cross-platform web feature testing.',
+  },
+  {
+    dates: '2016 — 2018',
+    role: 'IT Intern',
+    company: 'Blue Cross Blue Shield of Michigan',
+    companyUrl: '',
+    description:
+      'MDM administration via Microsoft Intune and Azure AD. Hardware and software support across MacOS, Linux, Windows, iOS and Android — 98% first-contact resolution rate.',
   },
 ]
 
