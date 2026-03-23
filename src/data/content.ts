@@ -26,6 +26,14 @@ export const stats = [
 
 export const projects = [
   {
+    tag: 'Consulting / BluPix',
+    title: 'Client API Integrations',
+    description:
+      'Diagnosed and resolved REST API authentication, data sync, and XML/JSON connectivity issues for multiple consulting clients.',
+    stack: ['REST APIs', 'XML', 'Python'],
+    link: '',
+  },
+  {
     tag: 'AI / Automation',
     title: 'Customer Support Chatbot',
     description:
@@ -49,14 +57,7 @@ export const projects = [
     stack: ['Power BI', 'Excel', 'SharePoint'],
     link: '',
   },
-  {
-    tag: 'Consulting / BluPix',
-    title: 'Client API Integrations',
-    description:
-      'Diagnosed and resolved REST API authentication, data sync, and XML/JSON connectivity issues for multiple consulting clients.',
-    stack: ['REST APIs', 'XML', 'Python'],
-    link: '',
-  },
+
 ]
 
 export const skillGroups = [
